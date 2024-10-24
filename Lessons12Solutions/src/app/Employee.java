@@ -35,4 +35,10 @@ public class Employee {
     public Integer getAge() {
         return age;
     }
+
+    public void printEmployee(){
+
+        System.out.printf("ПІБ: %s, посада: %s, email: %s, телефон: %d, вік: %d %n",
+                name, profession,email,phone,age);
+    }
 }
